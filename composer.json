@@ -10,8 +10,12 @@
             "homepage": "http://sammaye.wordpress.com"
         }
     ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/BelegUS/mailchimp"
+    }],
     "require": {
-        "sammaye/mailchimp": "^1.0"
+        "sammaye/mailchimp": "dev-guzzle7-support"
     },
     "autoload": {
         "psr-4": { "sammaye\\yiichimp\\": "" }
